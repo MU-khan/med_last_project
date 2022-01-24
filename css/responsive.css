@@ -1,0 +1,184 @@
+@media only screen and (max-width: 1024px) {
+  nav .hamburger-menu {
+    display: flex;
+  }
+  nav ul {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+    top: -60%;
+    position: absolute;
+    left: 0;
+    transition: all 1s ease-in-out;
+    width: 100%;
+    z-index: 11;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav ul li {
+    font-size: 1.5625rem;
+    margin: 20px;
+  }
+  .nav-menu-content a {
+    color: black;
+  }
+
+  .slide-out {
+    background-color: white;
+    color: black;
+    top: 0%;
+  }
+
+  .section-slide .my-container {
+    width: 50%;
+  }
+  .position {
+    position: static;
+    padding: 20px 0;
+  }
+
+  .section-slide {
+    height: initial;
+  }
+  .sanatory_section_card > div {
+    width: 100%;
+  }
+
+  .load_more_link2 {
+    justify-content: center !important;
+    margin: 20px 0;
+  }
+  .product-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .back .row .col-7 .col-6 {
+    width: 100%;
+  }
+
+  .back .row .col-7,
+  .back .row .col-5 {
+    width: 100% !important;
+  }
+
+  .paragraph-2 {
+    width: 50%;
+  }
+
+  .sanatory_section2 .row {
+    flex-direction: column-reverse;
+  }
+  .back .row .col-5 {
+    display: none;
+  }
+
+  .submenu {
+    top: 130px;
+    flex-direction: row;
+  }
+  .submenu li {
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .section-slide .my-container {
+    float: none;
+    width: 96%;
+  }
+
+  .owl-carousel {
+    top: 0;
+    margin: 0;
+  }
+  .back {
+    padding: 0;
+  }
+
+  .back input[type="submit"] {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  nav ul li {
+    margin: 10px;
+  }
+  .text--area {
+    width: 80%;
+  }
+
+  .owl-carousel {
+    top: -165px;
+  }
+
+  .position {
+    padding: 180px 0 0 0;
+  }
+  .paragraph-2 {
+    width: 100%;
+  }
+
+  .section_title,
+  .section_title2,
+  .section_title3 {
+    font-size: 22px !important;
+  }
+  .product-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  footer {
+    height: initial;
+  }
+
+  footer .row {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer .row .col-4 {
+    text-align: left;
+  }
+
+  .product-grid .row .col-md-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .facilities .products {
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+  }
+
+  footer {
+    padding: 30px;
+  }
+  footer .row .col-4,
+  footer .row .col-4:last-child {
+    text-align: center;
+    width: 100%;
+  }
+
+  .submenu {
+    top: 100px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .section-slide .position {
+    text-align: center;
+  }
+
+  .owl-carousel {
+    top: -125px;
+  }
+}

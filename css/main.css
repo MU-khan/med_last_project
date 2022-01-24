@@ -1,0 +1,387 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  outline: none;
+  list-style-type: none;
+  border: 0;
+}
+
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  height: 900px;
+ 
+}
+
+nav {
+  height: 80px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.logo img {
+  width: 110px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  font-size: 15px;
+}
+
+.nav-menu-content a {
+  color: #000;
+  display: block;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-menu-content li {
+  color: #000;
+}
+
+.nav-menu-content a::before {
+  display: block;
+  content: "";
+  width: 0;
+  height: 2px;
+  bottom: 5px;
+  left: 0;
+  bottom: -3px;
+  z-index: 0;
+  position: absolute;
+  background: #0B5EE8;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-menu-content a:hover {
+  background-position: 0%;
+}
+
+.nav-menu-content a:hover:before {
+  width: 100%;
+}
+
+
+.nav-menu-content ul li:last-child {
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.nav-menu-content ul li:last-child:hover .submenu {
+  visibility: visible;
+  opacity: 1;
+}
+
+.submenu {
+  transition: 2s;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s;
+}
+
+.submenu li {
+  border-bottom: 1px solid grey;
+  margin: 10px 0;
+}
+
+.submenu li a {
+  width: 100%;
+}
+.fa-chevron-down {
+  font-size: 10px;
+}
+
+@keyframes scrollAnimation {
+  0% {
+    transform: translateY(-150px);
+  }
+  50% {
+    transform: translateY(-100px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
+.icons a {
+  padding-left: 15px;
+}
+
+.icons img {
+  width: 20px;
+}
+
+
+
+
+.language {
+  text-align: end;
+  padding: 20px 0;
+}
+
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #000;
+  margin-top: 150px;
+}
+
+.text--area {
+  width: 50%;
+}
+
+.text--area h1 {
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.text--area p {
+  margin-bottom: 30px;
+}
+
+.contact-us .more {
+  width: 238px;
+  height: 50px;
+  background: #0b5ee8;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600px;
+}
+
+.header-content .icons {
+  width: 18px;
+}
+
+.header-content .icons a {
+  margin: 5px 0;
+}
+
+.header-content button {
+  background: none;
+  border: none;
+}
+
+
+
+.facilities .products {
+  padding: 50px 0;
+}
+
+.facilities .row .card {
+  border: none;
+}
+.facilities .row .col-md-2 .card {
+  width: 200px;
+}
+.facilities .row .col-md-2 .card img {
+  border-radius: 100%;
+  height: 100%;
+  width: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+
+.facilities .row .col-md-2 .card a {
+  text-decoration-style: none;
+  color: black;
+  -moz-text-decoration-style: none;
+}
+
+.back {
+  background-color: #e5e5e5;
+  padding: 50px;
+}
+
+.text {
+  font-size: 35px;
+  font-style: bold;
+  text-align: left;
+  vertical-align: top;
+  letter-spacing: 15%;
+  line-height: 53px;
+  margin-bottom: 70px;
+  margin-top: 30px;
+}
+textarea {
+  width: 100%;
+  height: 225px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 10px;
+  background-color: #f8f8f8;
+  font-size: 18px;
+  resize: none;
+}
+
+input:focus {
+  border: 3px solid #0b5ee8;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  resize: vertical;
+  font-size: 18px;
+}
+
+input[type="submit"] {
+  width: 35%;
+  background-color: #0b5ee8;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+input[type="submit"]:hover {
+  transform: translateY(-3px);
+}
+.img {
+  width: 100%;
+  height: 520px;
+  border-radius: 10px;
+}
+footer {
+  height: 220px;
+  background-color: #0b5ee8;
+  text-align: center;
+  padding-top: 80px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.imghover {
+  transition: all 0.4s;
+}
+
+.imghover:hover {
+  transform: scale(1.3);
+}
+.recorder {
+  float: right;
+  right: 10px;
+  top: 10px;
+  position: absolute;
+  cursor: pointer;
+}
+
+footer img {
+  width: 25px;
+}
+
+/*number block*/
+.iti {
+  width: 100%;
+}
+
+.product-grid {
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.hamburger-menu {
+  align-items: flex-end;
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  z-index: 11;
+  height: 27px;
+  width: 44px;
+}
+
+.hamburger-line:first-child,
+.hamburger-line:nth-child(2),
+.hamburger-line:last-child {
+  background-color: white;
+  height: 10%;
+  transition: 0.4s;
+  width: 100%;
+}
+.hamburger-line:first-child {
+  width: 100%;
+}
+
+.hamburger-line:nth-child(2) {
+  width: 75%;
+}
+
+.hamburger-line:last-child {
+  width: 50%;
+}
+
+.hamburger-rotate .hamburger-line:first-child {
+  transform: rotate(-45deg) translate(-13px, 5px);
+  background-color: black;
+}
+
+.hamburger-rotate .hamburger-line:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger-rotate .hamburger-line:last-child {
+  transform: rotate(45deg) translate(-7px, 0px);
+  background-color: black;
+  width: 100%;
+}
+
+nav.active {
+  animation: scrollAnimation 0.5s linear;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  position: fixed;
+  transition: all 0.5s ease-in-out;
+  width: 100%;
+}
+
+footer .row .col-4 {
+  text-align: left;
+}
+
+footer .row .col-4:last-child {
+  text-align: right;
+}
+

@@ -1,0 +1,262 @@
+
+
+/* SECTION SANATORY */
+
+.sanatory_section_container {
+  padding: 80px 0;
+  width: 100%;
+}
+
+.sanatory_section_container p {
+    margin-bottom: 0;
+}
+
+.sanatory_section_container ul {
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.section_title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 52px;
+  letter-spacing: 0.15em;
+  color: #323232;
+  margin-bottom: 70px;
+}
+
+.sanatory_section_card {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+.sanatory_section_card > div {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.sanatory_section_cardlist > .row {
+  align-items: center;
+}
+
+.sanatory_card {
+  height: 372px;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  overflow: hidden;
+  box-shadow: 0px 6px 25px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  margin-bottom: 24px;
+}
+
+.sanatory_card_image {
+  width: 100%;
+  height: 215px;
+  overflow: hidden;
+}
+
+.sanatory_card_image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 1.2s ease;
+}
+
+.sanatory_card:hover .sanatory_card_image img {
+  transform: scale(1.06);
+}
+
+.sanatory_card_description {
+  height: calc(100% - 215px);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 16px 24px 24px 24px;
+}
+
+.sanatory_card_title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  height: 21px;
+  /* overflow: hidden; */
+  color: #1a1a1a;
+  margin-bottom: 10px;
+}
+
+.sanatory_card_rating {
+  display: flex;
+}
+
+.sanatory_card_rating li {
+  width: 16px;
+  height: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(images/star.svg);
+  margin-right: 4px;
+}
+
+.sanatory_card_like_and_view {
+  display: flex;
+  margin-top: 13px;
+  margin-bottom: 11px;
+}
+
+.sanatory_card_like_and_view > div {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+  color: #767676;
+}
+
+.eye_icon {
+  width: 18px;
+  height: 12px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(images/eye.svg);
+  margin-right: 5px;
+}
+
+.sanatory_card_like_and_view__like {
+  margin-left: 39px;
+}
+
+.like_icon {
+  width: 15px;
+  height: 16px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(images/like.svg);
+  margin-right: 5px;
+}
+
+.sanatory_card_gomore {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sanatory_card_gomore_date {
+  display: flex;
+  align-items: center;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #767676;
+}
+
+.clock_icon {
+  width: 13px;
+  height: 13px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(images/clock.svg);
+  margin-right: 5px;
+}
+
+.sanatory_card_gomore_more {
+  padding: 4px 17px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+  background: #0b5ee8;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.sanatory_card_gomore_more:hover {
+  background: #0a53c8;
+  color: #fff;
+}
+
+
+.section_load_more {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  color: #0b5ee8;
+  margin-top: -12px;
+}
+
+.load_more_link {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (max-width: 991px) {
+  .load_more_link {
+    justify-content: center;
+  }
+
+  .section_load_more {
+    margin-top: 24px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
+
+/* SECTION CASMETOLOGY */
+
+.sanatory_section2 {
+  background-color: #dddddd;
+}
+.section_title2 {
+  font-style: normal;
+  text-align: end;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 52px;
+  letter-spacing: 0.15em;
+  color: #323232;
+  margin-bottom: 70px;
+}
+
+@media (max-width: 991px) {
+  .section_title2 {
+    margin-left: 0;
+  }
+}
+
+
+.load_more_link2 {
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* TOUR SECTION */
+.sanatory_section2 {
+  background-color: #dddddd;
+}
+.section_title3 {
+  font-style: normal;
+  text-align: end;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 52px;
+  letter-spacing: 0.15em;
+  color: #323232;
+  margin-bottom: 70px;
+}
+
+@media (max-width: 991px) {
+  .section_title3 {
+    margin-left: 0;
+  }
+}

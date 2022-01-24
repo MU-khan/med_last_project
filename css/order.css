@@ -1,0 +1,120 @@
+header {
+  height: 200px;
+}
+
+input {
+  border: none !important;
+  background: none !important;
+  outline: none !important;
+  font-family: "poppins" !important;
+}
+.order {
+  width: 100%;
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.order-head {
+  width: 1148px;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+
+.order-head h2 {
+  font-family: "poppins";
+  font-size: 38px;
+  font-weight: 600;
+}
+.order-table {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.conteiner {
+  width: 1148px;
+  height: 550px;
+}
+.inputs {
+  margin: 45px 0;
+}
+
+.left-inputs {
+  border: 1px solid #cccaca;
+  border-radius: 10px;
+  width: 550px;
+  height: 45px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left-inputs input {
+  width: 470px;
+}
+
+.input-location {
+  position: absolute;
+  top: 8px;
+  left: 10px;
+}
+.input-vector {
+  position: absolute;
+  right: 10px;
+}
+
+.order-table-right {
+  margin: 45px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.enter {
+  width: 250px;
+  height: 45px;
+  border: 1px solid #cccaca;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.enter input {
+  width: 200px;
+}
+.calendar {
+  position: absolute;
+  left: 5px;
+}
+.inp-vector {
+  position: absolute;
+  right: 5px;
+}
+
+.first-row {
+  margin-left: 20px;
+}
+
+.inp-name {
+  margin-top: 45px;
+}
+
+.email {
+  width: 530px;
+}
+
+.email-margin {
+  margin: 45px 0;
+  margin-left: 20px;
+}
+
+.order-btn {
+  width: 360px;
+  height: 40px;
+  margin-bottom: 50px;
+}

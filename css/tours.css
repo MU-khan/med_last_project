@@ -1,0 +1,80 @@
+header {
+  height: 150px;
+}
+.tours-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.tours-head {
+  font-size: 31px;
+  font-family: "poppins";
+  font-weight: 600;
+  padding-bottom: 45px;
+}
+
+.tours-content p {
+  font-size: 18px;
+  font-family: "poppins";
+  font-weight: 400;
+}
+
+.tours-icons {
+  width: 500px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+.tours-icons span {
+  margin: 0 7px;
+}
+
+.tour-button button {
+  width: 170px;
+  height: 50px;
+  border-radius: 10px;
+}
+.btn-right {
+  margin-left: 19px;
+}
+
+.product-slide .item {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.product-slide .item img {
+  width: 100%;
+  height: 100%;
+}
+
+.project-slide .owl-nav {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-slide {
+  margin-top: 200px;
+}
+
+.tours-section .owl-next {
+  margin-right: 35px !important;
+}
+
+.tours-section .owl-next:hover {
+  background: none !important;
+}
+.tours-section .owl-prev:hover {
+  background: none !important;
+}

@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Changa:wght@300;400;600&family=Montserrat:ital,wght@0,400;0,500;0,600;1,300;1,500&family=Poppins:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap");
+
+header {
+  height: 200px;
+}
+
+button {
+  border: none;
+  background: none;
+  outline: none;
+}
+
+input {
+  border: none;
+  background: none;
+  outline: none;
+  box-shadow: 0px 5px 12px 3px rgba(172, 169, 169, 0.83);
+}
+
+::placeholder {
+  font-size: 14px;
+  color: #6f6f6f;
+  font-family: "Poppins";
+}
+
+/*-------- FILTER ----------*/
+
+form {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 27px;
+}
+
+select {
+  background-image: url(../svg/filter-Vector.svg);
+  background-repeat: no-repeat;
+  background-position-y: center;
+}
+
+select:first-child {
+  background-position-x: 185px;
+}
+
+select:last-child {
+  background-position-x: 270px;
+}
+
+.region {
+  display: flex;
+}
+form select,
+form input {
+  color: #6f6f6f;
+  box-shadow: 0px 4px 5px 0px #00000059;
+  border-radius: 10px;
+  padding: 10px;
+  appearance: none;
+}
+
+.region input,
+.region select {
+  margin-right: 20px;
+  width: 300px;
+}
+
+form input:focus {
+  border: none;
+}
+
+form button {
+  padding: 12px 94px;
+  background: #0b5ee8;
+  border-radius: 10px;
+  color: white;
+  border: 1px solid #0b5ee8;
+  transition: 0.3s;
+}
+
+form button:hover {
+  color: #0b5ee8;
+  background: white;
+  border: 1px solid #0b5ee8;
+}
+
+/* =-----------------------------sanatory --------------------------------*/
+.all-products {
+  margin: 100px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 160px;
+  row-gap: 100px;
+}
+
+.product {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  box-shadow: 0px 6px 25px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.product-image {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+}
+
+.product-image img {
+  object-fit: cover;
+}
+
+.product-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.product-info h6 {
+  margin: 0;
+}
+.ratings i {
+  color: #c9c9c9;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.buttons button {
+  padding: 5px 16px;
+  outline: none;
+  background: #0b5ee8;
+  border: 1px solid #0b5ee8;
+  border-radius: 5px;
+  color: white;
+  transition: 0.3s;
+}
+
+.buttons button i,
+.buttons a i {
+  margin-left: 5px;
+}
+
+.buttons a,
+.buttons button {
+  cursor: pointer;
+}
+
+.buttons a:hover {
+  text-decoration: underline !important;
+}
+
+.buttons button:hover {
+  background-color: white;
+  color: #0b5ee8;
+  border: 1px solid #0b5ee8;
+}
+
+.product-content {
+  padding: 17px;
+}
+
+.all-products p {
+  margin: 0;
+}
+
+.product h2 {
+  font-family: "Poppins";
+  font-size: 14px;
+  padding-top: 15px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+}
